@@ -14,3 +14,10 @@ COLUMN_COUNT = 7
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
 	return board
+
+
+### Funcion Print Board ###
+
+def print_board(board):
+    print(np.flip(board, 0))
+    
